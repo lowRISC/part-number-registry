@@ -6,3 +6,7 @@ structure of each namespace and the rules around allocating new codes within it
 varies by namespace.  See the individual namespace files for further
 information.  Raise an issue on this repository if you have any questions.
 
+# Namespaces
+
+[JTAG part numbers](jtag_partno.md)
+
