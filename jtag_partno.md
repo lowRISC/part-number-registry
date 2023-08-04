@@ -39,8 +39,9 @@ Whilst there are no universal TAP type allocations, certain classes of part type
 
 | TAP Type | Description |
 | -------- | ----------- |
-| 1        | RV_DM RISC-V debug module |
-| 2        | Lifecycle controller |
+| 1        | RV_DM RISC-V debug module
+| 2        | Lifecycle controller
+| 3        | Combined TAP (RV_DM and Lifecycle)
 
 ### Ibex Demo System Parts
 
@@ -56,6 +57,5 @@ This specifies all valid allocations of currently allocated version, part type a
 | --------- | ------- | -------- | ----------- |
 | 0         | 0       | 1        | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) RV_DM RISC-V debug module
 | 0         | 0       | 2        | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) Lifecycle controller
-| 1         | 0       | 1        | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) OpenTitan Darjeeling RV_DM RISC-V debug module
-| 1         | 0       | 2        | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) OpenTitan Darjeeling Lifecycle controller
+| 1         | 0       | 3        | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) combined TAP
 | 256       | 0       | 1        | Ibex Demo System RV_DM RISC-V debug module
