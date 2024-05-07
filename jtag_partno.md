@@ -30,6 +30,7 @@ The following version and part type numbers have been allocated:
 | 0         | 0       | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) |
 | 1         | 0       | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) |
 | 256       | 0       | [Ibex Demo System](https://github.com/lowRISC/ibex-demo-system) | At present Ibex Demo System has no strict versioning so all instances will use version 0 |
+| 257       | 0       | [Sonata system](https://github.com/lowRISC/sonata-system) |
 
 ## TAP Type Allocations
 
@@ -48,6 +49,12 @@ Whilst there are no universal TAP type allocations, certain classes of part type
 | -------- | ----------- |
 | 1        | RV_DM RISC-V debug module |
 
+### Sonata System Parts
+
+| TAP Type | Description |
+| -------- | ----------- |
+| 1        | RV_DM RISC-V debug module |
+
 ## Complete Allocation Table
 
 This specifies all valid allocations of currently allocated version, part type and TAP type numbers:
@@ -59,3 +66,4 @@ This specifies all valid allocations of currently allocated version, part type a
 | 1         | 0       | 1        | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) OpenTitan Darjeeling RV_DM RISC-V debug module
 | 1         | 0       | 2        | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) OpenTitan Darjeeling Lifecycle controller
 | 256       | 0       | 1        | Ibex Demo System RV_DM RISC-V debug module
+| 257       | 0       | 1        | Sonata System RV_DM RISC-V debug module
