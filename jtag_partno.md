@@ -9,7 +9,7 @@ The JTAG IDCODE structure (with lowRISC JEDEC Manufacturer ID) is:
 
 | Bits  | 31 : 28 | 27 : 12     | 11 : 1  | 0   |
 | ----- | ------- | ----------- | ------- | --- |
-| Field | Version | Part Number | 11'h337 | 1'b1|
+| Field | Version | Part Number | 11'h66F | 1'b1|
 
 The 16-bit part number is further subdivided into 2 fields
 
