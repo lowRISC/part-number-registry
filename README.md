@@ -10,3 +10,8 @@ information.  Raise an issue on this repository if you have any questions.
 
 [JTAG part numbers](jtag_partno.md)
 
+## Licensing
+
+Unless otherwise noted, everything in this repository is covered by the Apache
+License, Version 2.0 (see [LICENSE](LICENSE) for full text).
+
