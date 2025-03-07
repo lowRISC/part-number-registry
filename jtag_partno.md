@@ -27,10 +27,10 @@ The following version and part type numbers have been allocated:
 
 | Version | Part Type | Description | Notes |
 |---------| --------- | ----------- | ----- |
-| 0       |   0       | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0)
-| 0       |   1       | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated)
-| 0       | 256       | [Ibex Demo System](https://github.com/lowRISC/ibex-demo-system) | At present Ibex Demo System has no strict versioning so all instances will use version 0
-| 0       | 257       | [Sonata system](https://github.com/lowRISC/sonata-system)
+| 1       |   0       | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0)
+| 1       |   1       | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated)
+| 1       | 256       | [Ibex Demo System](https://github.com/lowRISC/ibex-demo-system) | At present Ibex Demo System has no strict versioning so all instances will use version 0
+| 1       | 257       | [Sonata system](https://github.com/lowRISC/sonata-system)
 
 ## TAP Type Allocations
 
@@ -62,8 +62,8 @@ This specifies all valid allocations of currently allocated version, part type a
 
 | Version | Part Type | TAP Type | Description |
 | ------- | --------- | -------- | ----------- |
-| 0       | 0         | 1        | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) RV_DM RISC-V debug module
-| 0       | 0         | 2        | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) Lifecycle controller
-| 0       | 1         | 3        | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) combined TAP
-| 0       | 256       | 1        | Ibex Demo System RV_DM RISC-V debug module
-| 0       | 257       | 1        | Sonata System RV_DM RISC-V debug module
+| 1       | 0         | 1        | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) RV_DM RISC-V debug module
+| 1       | 0         | 2        | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) Lifecycle controller
+| 1       | 1         | 3        | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) combined TAP
+| 1       | 256       | 1        | Ibex Demo System RV_DM RISC-V debug module
+| 1       | 257       | 1        | Sonata System RV_DM RISC-V debug module
