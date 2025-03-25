@@ -27,10 +27,10 @@ The following version and part type numbers have been allocated:
 
 | Version | Part Type | Description | Notes |
 |---------| --------- | ----------- | ----- |
-| 1       |   0       | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0)
-| 1       |   1       | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated)
-| 1       | 256       | [Ibex Demo System](https://github.com/lowRISC/ibex-demo-system) | At present Ibex Demo System has no strict versioning so all instances will use version 0
-| 1       | 257       | [Sonata system](https://github.com/lowRISC/sonata-system)
+| 1       |   0       | [OpenTitan Earl Grey][earlgrey]
+| 1       |   1       | [OpenTitan Darjeeling][darjeeling]
+| 1       | 256       | [Ibex Demo System][demo-system] | At present Ibex Demo System has no strict versioning so all instances will use version 1
+| 1       | 257       | [Sonata system][sonata]
 
 ## TAP Type Allocations
 
@@ -62,8 +62,15 @@ This specifies all valid allocations of currently allocated version, part type a
 
 | Version | Part Type | TAP Type | Description |
 | ------- | --------- | -------- | ----------- |
-| 1       | 0         | 1        | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) RV_DM RISC-V debug module
-| 1       | 0         | 2        | [OpenTitan Earl Grey ES M2.5.2 - RCO](https://github.com/lowRISC/opentitan/releases/tag/Earlgrey-M2.5.2-RC0) Lifecycle controller
-| 1       | 1         | 3        | [OpenTitan Darjeeling](https://github.com/lowRISC/opentitan-integrated) combined TAP
-| 1       | 256       | 1        | Ibex Demo System RV_DM RISC-V debug module
-| 1       | 257       | 1        | Sonata System RV_DM RISC-V debug module
+| 1       | 0         | 1        | [OpenTitan Earl Grey][earlgrey] RV_DM RISC-V debug module
+| 1       | 0         | 2        | [OpenTitan Earl Grey][earlgrey] Lifecycle controller
+| 1       | 1         | 1        | [OpenTitan Darjeeling][darjeeling] RV_DM RISC-V debug module
+| 1       | 1         | 2        | [OpenTitan Darjeeling][darjeeling] Lifecycle controller
+| 1       | 1         | 3        | [OpenTitan Darjeeling][darjeeling] combined TAP
+| 1       | 256       | 1        | [Ibex Demo System][demo-system] RV_DM RISC-V debug module
+| 1       | 257       | 1        | [Sonata System][sonata] RV_DM RISC-V debug module
+
+[earlgrey]: https://github.com/lowRISC/opentitan/blob/6b4c43c852ea2be235dd630d7e27f25e1b38f60a/hw/top_earlgrey/rtl/jtag_id_pkg.sv
+[darjeeling]: https://github.com/lowRISC/opentitan/blob/8f279ef47ba3a5c95f1416612b4f5efe8304ee0b/hw/top_darjeeling/rtl/jtag_id_pkg.sv
+[demo-system]: https://github.com/lowRISC/ibex-demo-system/blob/af43c851580c89d0f24d9010865faeb0b32af1ee/rtl/system/jtag_id_pkg.sv
+[sonata]: https://github.com/lowRISC/sonata-system/blob/71f2a24425d10df38107a2ae8f954400a366047f/rtl/system/jtag_id_pkg.sv
