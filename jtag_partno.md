@@ -64,8 +64,6 @@ This specifies all valid allocations of currently allocated version, part type a
 | ------- | --------- | -------- | ----------- |
 | 1       | 0         | 1        | [OpenTitan Earl Grey][earlgrey] RV_DM RISC-V debug module
 | 1       | 0         | 2        | [OpenTitan Earl Grey][earlgrey] Lifecycle controller
-| 1       | 1         | 1        | [OpenTitan Darjeeling][darjeeling] RV_DM RISC-V debug module
-| 1       | 1         | 2        | [OpenTitan Darjeeling][darjeeling] Lifecycle controller
 | 1       | 1         | 3        | [OpenTitan Darjeeling][darjeeling] combined TAP
 | 1       | 256       | 1        | [Ibex Demo System][demo-system] RV_DM RISC-V debug module
 | 1       | 257       | 1        | [Sonata System][sonata] RV_DM RISC-V debug module
