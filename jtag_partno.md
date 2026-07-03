@@ -29,6 +29,7 @@ The following version and part type numbers have been allocated:
 |---------| --------- | ----------- | ----- |
 | 1       | 0x000     | [OpenTitan Earl Grey][earlgrey]
 | 1       | 0x001     | [OpenTitan Darjeeling][darjeeling]
+| 1       | 0x002     | [OpenTitan Earl Grey 2][earlgrey2]
 | 1       | 0x100     | [Ibex Demo System][demo-system] | At present Ibex Demo System has no strict versioning so all instances will use version 1
 | 1       | 0x101     | [Sonata system][sonata]
 | 1       | 0x200     | [CHERI Mocha][mocha]
@@ -80,12 +81,15 @@ This specifies all valid allocations of currently allocated version, part type a
 | 1       | 0x000     | 1        | [OpenTitan Earl Grey][earlgrey] RV_DM RISC-V debug module
 | 1       | 0x000     | 2        | [OpenTitan Earl Grey][earlgrey] Lifecycle controller
 | 1       | 0x001     | 3        | [OpenTitan Darjeeling][darjeeling] combined TAP
+| 1       | 0x002     | 1        | [OpenTitan Earl Grey 2][earlgrey2] RV_DM RISC-V debug module
+| 1       | 0x002     | 2        | [OpenTitan Earl Grey 2][earlgrey2] Lifecycle controller
 | 1       | 0x100     | 1        | [Ibex Demo System][demo-system] RV_DM RISC-V debug module
 | 1       | 0x101     | 1        | [Sonata System][sonata] RV_DM RISC-V debug module
 | 1       | 0x200     | 1        | [CHERI Mocha][mocha] RV_DM RISC-V debug module
 
 [earlgrey]: https://github.com/lowRISC/opentitan/blob/6b4c43c852ea2be235dd630d7e27f25e1b38f60a/hw/top_earlgrey/rtl/jtag_id_pkg.sv
 [darjeeling]: https://github.com/lowRISC/opentitan/blob/8f279ef47ba3a5c95f1416612b4f5efe8304ee0b/hw/top_darjeeling/rtl/jtag_id_pkg.sv
+[earlgrey2]: https://github.com/lowRISC/opentitan/blob/b0744ba7e093c1e816790c482ef38c4716a47db1/hw/top_earlgrey/rtl/jtag_id_pkg.sv
 [demo-system]: https://github.com/lowRISC/ibex-demo-system/blob/af43c851580c89d0f24d9010865faeb0b32af1ee/rtl/system/jtag_id_pkg.sv
 [sonata]: https://github.com/lowRISC/sonata-system/blob/71f2a24425d10df38107a2ae8f954400a366047f/rtl/system/jtag_id_pkg.sv
 [mocha]: https://github.com/lowRISC/mocha/blob/6122cb1b6d0c43181eeaf23e738bc977723a1361/hw/top_chip/rtl/jtag_id_pkg.sv
